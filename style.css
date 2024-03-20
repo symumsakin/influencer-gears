@@ -11,13 +11,42 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 50px 80px;
 }
 
 nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 50px 80px;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('images/Circle\ design.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+
+.banner-img-div {
+    /* width: 75%; */
+}
+
+.banner-right img {
+    /* width: 100%; */
+}
+
+.banner-left {
+    width: 50%;
 }
 
 /* meadia query  for responsiveness */
