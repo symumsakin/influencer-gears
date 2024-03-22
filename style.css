@@ -79,6 +79,23 @@ nav ul li {
     cursor: pointer;
 }
 
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 90px;
+    box-shadow: 0px 0px 0.5px;
+    margin: 50px auto;
+}
+
 /* meadia query  for responsiveness */
 @media screen and (max-width:576px) {
     nav {
