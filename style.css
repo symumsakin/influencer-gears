@@ -96,6 +96,60 @@ nav ul li {
     margin: 50px auto;
 }
 
+.popular-collection-container > h3 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 1px;
+}
+
+.card {
+    width: 350px;
+    height: 465px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px 0.5px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 7px;
+}
+
+.card p {
+    color: #787885;
+    font-size: 14px;
+}
+
+.card small {
+    color: #FB8200;
+    font-size: 14px;
+}
+
+.card small span {
+    color: #5E6366;
+    font-weight: bold;
+}
+
 /* meadia query  for responsiveness */
 @media screen and (max-width: 960px) {
     nav {
