@@ -200,6 +200,28 @@ nav ul li {
     max-width: 140px;
 }
 
+footer {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0826;
+    color: white;
+    padding: 50px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+footer ul li {
+    cursor: pointer;
+}
+
 /* meadia query  for responsiveness */
 @media screen and (max-width: 960px) {
     nav {
