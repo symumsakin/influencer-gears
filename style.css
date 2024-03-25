@@ -120,6 +120,7 @@ nav ul li {
     height: 465px; */
     padding: 20px;
     box-shadow: 5px 5px 10px 0.5px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
 }
 
 .card img {
@@ -163,6 +164,7 @@ nav ul li {
     color: #E02C6D;
     font-weight: bold;
     text-align: end;
+    cursor: pointer;
 }
 
 .featured {
@@ -198,6 +200,7 @@ nav ul li {
     padding: 10px 25px;
     margin-top: 15px;
     max-width: 140px;
+    cursor: pointer;
 }
 
 footer {
